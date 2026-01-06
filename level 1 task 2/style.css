@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef1f7;
+}
+
+.main-box {
+    background-color: #ffffff;
+    width: 75%;
+    margin: 80px auto;
+    padding: 40px;
+    border-left: 6px solid #3a5bff;
+    border-right: 6px solid #3a5bff;
+}
+
+.top-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.task {
+    background-color: #2f49c4;
+    color: white;
+    padding: 6px 14px;
+    margin-left: 10px;
+}
+
+.heading {
+    margin-top: 15px;
+    color: #2f49c4;
+    text-decoration: underline;
+}
+
+.description {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+}
+
+.demo-link {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.demo-link a {
+    margin-left: 15px;
+    color: black;
+    text-decoration: underline;
+}
