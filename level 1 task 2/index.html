@@ -2,38 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Task 2 - Landing Page</title>
+    <title>Simple Landing Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<section class="main-box">
+    <!-- TOP BAR -->
+    <header class="top-bar">
+        <h1 class="site-name">JV Web</h1>
+        <div class="menu">
+            <a href="#intro">Intro</a>
+            <a href="#work">What I Learn</a>
+            <a href="#reach">Reach Me</a>
+        </div>
+    </header>
 
-    <div class="top-title">
-        <span class="level">LEVEL 1</span>
-        <span class="task">TASK 2</span>
-    </div>
+    <!-- INTRO SECTION -->
+    <section id="intro" class="intro-section">
+        <h2>Learning Web Development</h2>
+        <p>
+            This landing page is created as a beginner project using only HTML and CSS.
+            The main aim is to understand how sections, boxes, colors and alignment work.
+        </p>
+        <button class="main-btn">Explore</button>
+    </section>
 
-    <h2 class="heading">LANDING PAGE</h2>
+    <!-- LEARNING SECTION -->
+    <section id="work" class="learn-section">
+        <div class="card">
+            <h3>HTML Basics</h3>
+            <p>
+                HTML helps in creating the structure of the webpage using headings,
+                paragraphs and sections.
+            </p>
+        </div>
 
-    <p class="description">
-        A landing page is one of the best beginner-level projects in web
-        development. It mainly uses HTML and CSS concepts. By doing this
-        project, you will understand how to divide sections, align content,
-        create columns, and use headers and footers properly.
-        <br><br>
-        Designing a landing page also improves creativity. Proper usage of
-        padding, margins, colors, and layout is very important to avoid
-        overlapping elements. Overall, this project helps in building a
-        visually attractive and user-friendly webpage.
-    </p>
+        <div class="card">
+            <h3>CSS Styling</h3>
+            <p>
+                CSS is used to add colors, spacing, alignment and make the page look neat.
+            </p>
+        </div>
 
-    <div class="demo-link">
-        <span>FOR DEMO</span>
-        <a href="#">CLICK HERE</a>
-    </div>
+        <div class="card">
+            <h3>Page Design</h3>
+            <p>
+                Designing a landing page improves creativity and layout understanding.
+            </p>
+        </div>
+    </section>
 
-</section>
+    <!-- CONTACT -->
+    <section id="reach" class="reach-section">
+        <h2>Contact Details</h2>
+        <p>Email: jegavarshini@gmail.com</p>
+        <p>Phone: 987xxxxxx</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="page-footer">
+        <p>© 2026 JV. Created for learning purpose.</p>
+    </footer>
 
 </body>
 </html>
