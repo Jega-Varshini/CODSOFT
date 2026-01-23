@@ -29,6 +29,7 @@ This repository contains the tasks completed as part of the CodSoft Web Developm
 ## Folder Structure
 - level 1 task 1/
 - level 1 task 2/
+- level 1 task 3/
 
 ## How to Run
 1. Download or clone the repository
