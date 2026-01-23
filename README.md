@@ -18,6 +18,14 @@ This repository contains the tasks completed as part of the CodSoft Web Developm
   - Structured sections
   - Improved styling and layout
 
+### Level 1 – Task 3
+- Description: Basic calculator web application to perform arithmetic operations.
+- Technologies Used: HTML, CSS, JavaScript
+- Features:
+  - Addition, subtraction, multiplication, and division
+  - Interactive button-based UI
+  - Display screen for user input and results
+
 ## Folder Structure
 - level 1 task 1/
 - level 1 task 2/
